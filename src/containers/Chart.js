@@ -1,7 +1,8 @@
 import { connect } from 'react-redux'
 import Chart from '../components/Chart'
+// import Chart from '../containers/Chart'
 
-const mapToStatetoProps = (state) => {
+const mapStateToProps = (state) => {
     return {
         cars: state.cars
     }
